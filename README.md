@@ -7,3 +7,4 @@ Module that incorporates an API for a social social networking app, while using 
 ## Usage
 
 ## License
+MIT
