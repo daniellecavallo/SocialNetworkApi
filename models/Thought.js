@@ -29,7 +29,7 @@ const thoughtsSchema = new Schema(
    }
 )
 
-usersSchema.virtual("reactionsCount").get(function () {
+thoughtsSchema.virtual("reactionsCount").get(function () {
     return this.reactions.length;
 })
 

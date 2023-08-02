@@ -11,7 +11,7 @@ app.use(express.json())
 app.use(routes)
 
 
-db.once("open", () => {
+dataBase.once("open", () => {
     app.listen(PORT, function() {
     console.log("Server running on " + PORT)
 })
